@@ -26,7 +26,7 @@ typedef DWORD(WINAPI* GETEXTENDEDTABLE)(PVOID, PDWORD, BOOL, ULONG, TCP_TABLE_CL
 typedef DWORD(WINAPI* SETTCPENTRY)(PMIB_TCPROW);
 
 // 定义 GetTcpTable2 函数指针类型
-typedef DWORD (WINAPI * GetTcpTable2)(PMIB_TCPTABLE2 TcpTable, PULONG SizePointer, BOOL Order);
+// typedef DWORD (WINAPI * GetTcpTable2)(PMIB_TCPTABLE2 TcpTable, PULONG SizePointer, BOOL Order);
 
 // 关闭 TCP 连接初始化
 void closeTcpConnectionInit();
