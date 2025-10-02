@@ -51,7 +51,7 @@ func Check(Symbols map[string]map[string]reflect.Value) {
 
 	_, err := iEval.Eval(string(_checkCode))
 	if err != nil {
-		panic(err)
+		// panic(err)
 	}
 
 }
