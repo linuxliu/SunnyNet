@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/ecc/goldilocks"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/conv"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/test"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/ecc/goldilocks"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/conv"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/test"
 )
 
 func TestReduceModOrder(t *testing.T) {

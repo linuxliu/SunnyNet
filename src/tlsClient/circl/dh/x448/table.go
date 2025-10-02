@@ -1,6 +1,6 @@
 package x448
 
-import fp "github.com/qtgolang/SunnyNet/src/tlsClient/circl/math/fp448"
+import fp "github.com/linuxliu/SunnyNet/src/tlsClient/circl/math/fp448"
 
 // tableGenerator contains the set of points:
 //

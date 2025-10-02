@@ -33,11 +33,11 @@ package hybrid
 import (
 	"errors"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/sha3"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/kem"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/kem/kyber/kyber1024"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/kem/kyber/kyber512"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/kem/kyber/kyber768"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/sha3"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/kem"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/kem/kyber/kyber1024"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/kem/kyber/kyber512"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/kem/kyber/kyber768"
 )
 
 var ErrUninitialized = errors.New("public or private key not initialized")

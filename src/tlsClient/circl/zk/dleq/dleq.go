@@ -14,7 +14,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/group"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/group"
 )
 
 const (

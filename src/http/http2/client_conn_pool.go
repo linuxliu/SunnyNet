@@ -9,9 +9,9 @@ package http2
 import (
 	"sync"
 
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
 
-	 "github.com/qtgolang/SunnyNet/src/http"
+	 "github.com/linuxliu/SunnyNet/src/http"
 )
 
 // ClientConnPool manages a pool of HTTP/2 client connections.

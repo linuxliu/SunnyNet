@@ -15,7 +15,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/qtgolang/SunnyNet/src/crypto/tls/dicttls"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls/dicttls"
 )
 
 var ErrUnknownClientHelloID = errors.New("tls: unknown ClientHelloID")

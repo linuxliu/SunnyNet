@@ -102,7 +102,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/qtgolang/SunnyNet/src/GoScriptCode/yaegi/interp"
+	"github.com/linuxliu/SunnyNet/src/GoScriptCode/yaegi/interp"
 )
 
 const (

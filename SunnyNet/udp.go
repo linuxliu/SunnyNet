@@ -3,9 +3,9 @@ package SunnyNet
 import (
 	"bytes"
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/Call"
-	"github.com/qtgolang/SunnyNet/src/ProcessDrv/nfapi"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/Call"
+	"github.com/linuxliu/SunnyNet/src/ProcessDrv/nfapi"
+	"github.com/linuxliu/SunnyNet/src/public"
 
 	"net"
 	"sync/atomic"

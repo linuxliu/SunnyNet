@@ -2,9 +2,9 @@ package SunnyNet
 
 import (
 	"crypto/x509"
-	"github.com/qtgolang/SunnyNet/src/Certificate"
-	"github.com/qtgolang/SunnyNet/src/HttpCertificate"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/Certificate"
+	"github.com/linuxliu/SunnyNet/src/HttpCertificate"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
 )
 
 const (

@@ -1,7 +1,7 @@
 package Api
 
 import (
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/public"
 	"strconv"
 	"sync"
 	"time"

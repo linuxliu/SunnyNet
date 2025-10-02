@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/http/httptest"
+	"github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/http/httptest"
 )
 
 func ExampleResponseRecorder() {

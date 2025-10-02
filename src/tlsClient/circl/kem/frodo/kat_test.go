@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/nist"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/kem/schemes"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/nist"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/kem/schemes"
 )
 
 func TestPQCgenKATKem(t *testing.T) {

@@ -5,7 +5,7 @@ package websocket
 
 import (
 	"context"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
 	"net"
 	"net/url"
 )

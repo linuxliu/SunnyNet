@@ -4,8 +4,8 @@ import (
 	"crypto/rand"
 	"crypto/subtle"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/group"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/zk/dleq"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/group"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/zk/dleq"
 )
 
 type server struct {

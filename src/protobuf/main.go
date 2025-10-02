@@ -3,7 +3,7 @@ package protobuf
 import "C"
 import (
 	"encoding/json"
-	"github.com/qtgolang/SunnyNet/src/protobuf/JSON"
+	"github.com/linuxliu/SunnyNet/src/protobuf/JSON"
 	"strings"
 )
 

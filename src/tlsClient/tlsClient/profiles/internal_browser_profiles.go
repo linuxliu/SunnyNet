@@ -1,8 +1,8 @@
 package profiles
 
 import (
-	"github.com/qtgolang/SunnyNet/src/http/http2"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/http/http2"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
 )
 
 var Chrome_117 = ClientProfile{

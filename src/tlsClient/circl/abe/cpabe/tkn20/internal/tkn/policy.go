@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	pairing "github.com/qtgolang/SunnyNet/src/tlsClient/circl/ecc/bls12381"
+	pairing "github.com/linuxliu/SunnyNet/src/tlsClient/circl/ecc/bls12381"
 )
 
 const (

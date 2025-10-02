@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/kem"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/kem"
 )
 
 type shortKEM struct {

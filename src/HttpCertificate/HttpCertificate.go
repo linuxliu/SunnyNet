@@ -2,8 +2,8 @@ package HttpCertificate
 
 import (
 	"crypto/x509"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/public"
 	"net/url"
 	"regexp"
 	"strings"

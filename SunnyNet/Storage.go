@@ -1,7 +1,7 @@
 package SunnyNet
 
 import (
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/public"
 	"sync"
 )
 

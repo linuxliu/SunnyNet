@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/qtgolang/SunnyNet/src/GoScriptCode/yaegi/internal/unsafe2"
+	"github.com/linuxliu/SunnyNet/src/GoScriptCode/yaegi/internal/unsafe2"
 )
 
 // tcat defines interpreter type categories.

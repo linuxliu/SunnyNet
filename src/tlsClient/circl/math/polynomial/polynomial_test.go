@@ -3,9 +3,9 @@ package polynomial_test
 import (
 	"testing"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/group"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/test"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/math/polynomial"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/group"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/test"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/math/polynomial"
 )
 
 func TestPolyDegree(t *testing.T) {

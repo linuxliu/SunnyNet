@@ -1,7 +1,7 @@
 package CrossCompiled
 
 import (
-	"github.com/qtgolang/SunnyNet/src/iphlpapi/net"
+	"github.com/linuxliu/SunnyNet/src/iphlpapi/net"
 	"github.com/shirou/gopsutil/process"
 	"os"
 	"strconv"

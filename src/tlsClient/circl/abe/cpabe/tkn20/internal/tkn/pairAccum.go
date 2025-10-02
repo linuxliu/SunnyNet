@@ -3,7 +3,7 @@ package tkn
 import (
 	"fmt"
 
-	pairing "github.com/qtgolang/SunnyNet/src/tlsClient/circl/ecc/bls12381"
+	pairing "github.com/linuxliu/SunnyNet/src/tlsClient/circl/ecc/bls12381"
 )
 
 type pairAccum struct {

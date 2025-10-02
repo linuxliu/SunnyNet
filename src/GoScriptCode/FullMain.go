@@ -5,18 +5,18 @@ package GoScriptCode
 
 import (
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/Call"
-	"github.com/qtgolang/SunnyNet/src/Compress"
-	"github.com/qtgolang/SunnyNet/src/GoScriptCode/base"
-	"github.com/qtgolang/SunnyNet/src/GoScriptCode/check"
-	"github.com/qtgolang/SunnyNet/src/GoScriptCode/yaegi/interp"
-	"github.com/qtgolang/SunnyNet/src/GoScriptCode/yaegi/stdlib"
-	"github.com/qtgolang/SunnyNet/src/Interface"
-	"github.com/qtgolang/SunnyNet/src/RSA"
-	"github.com/qtgolang/SunnyNet/src/http"
-	_ "github.com/qtgolang/SunnyNet/src/http/pprof"
-	"github.com/qtgolang/SunnyNet/src/protobuf"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/Call"
+	"github.com/linuxliu/SunnyNet/src/Compress"
+	"github.com/linuxliu/SunnyNet/src/GoScriptCode/base"
+	"github.com/linuxliu/SunnyNet/src/GoScriptCode/check"
+	"github.com/linuxliu/SunnyNet/src/GoScriptCode/yaegi/interp"
+	"github.com/linuxliu/SunnyNet/src/GoScriptCode/yaegi/stdlib"
+	"github.com/linuxliu/SunnyNet/src/Interface"
+	"github.com/linuxliu/SunnyNet/src/RSA"
+	"github.com/linuxliu/SunnyNet/src/http"
+	_ "github.com/linuxliu/SunnyNet/src/http/pprof"
+	"github.com/linuxliu/SunnyNet/src/protobuf"
+	"github.com/linuxliu/SunnyNet/src/public"
 	"reflect"
 	"strconv"
 	"strings"
@@ -165,10 +165,10 @@ func init() {
 		"JsonToPB":  reflect.ValueOf(protobuf.JsonToPB),
 		"JsonParse": reflect.ValueOf(protobuf.JsonParse),
 	}
-	Symbols["github.com/qtgolang/SunnyNet/src/public/public"] = map[string]reflect.Value{
+	Symbols["github.com/linuxliu/SunnyNet/src/public/public"] = map[string]reflect.Value{
 		"Free": reflect.ValueOf(public.Free),
 	}
-	Symbols["github.com/qtgolang/SunnyNet/src/RSA/RSA"] = map[string]reflect.Value{
+	Symbols["github.com/linuxliu/SunnyNet/src/RSA/RSA"] = map[string]reflect.Value{
 		"PubKeyIO": reflect.ValueOf(RSA.PubKeyIO),
 	}
 	Symbols["reflect/reflect"] = map[string]reflect.Value{

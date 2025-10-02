@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
-	"github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/http/http2"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/tlsClient/bandwidth"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/tlsClient/profiles"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/http/http2"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/tlsClient/bandwidth"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/tlsClient/profiles"
 	"golang.org/x/net/proxy"
 )
 

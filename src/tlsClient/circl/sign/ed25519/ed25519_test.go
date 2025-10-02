@@ -3,7 +3,7 @@ package ed25519_test
 import (
 	"testing"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign/ed25519"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign/ed25519"
 )
 
 type zeroReader struct{}

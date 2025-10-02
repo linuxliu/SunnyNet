@@ -3,10 +3,10 @@ package main
 import "C"
 import (
 	"fmt"
-	"github.com/qtgolang/SunnyNet/Api"
-	"github.com/qtgolang/SunnyNet/SunnyNet"
-	"github.com/qtgolang/SunnyNet/src/encoding/hex"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/Api"
+	"github.com/linuxliu/SunnyNet/SunnyNet"
+	"github.com/linuxliu/SunnyNet/src/encoding/hex"
+	"github.com/linuxliu/SunnyNet/src/public"
 	"log"
 	"os"
 )

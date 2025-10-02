@@ -6,8 +6,8 @@ package NFapi
 import (
 	"encoding/binary"
 	"fmt"
-	. "github.com/qtgolang/SunnyNet/src/ProcessDrv/Info"
-	"github.com/qtgolang/SunnyNet/src/ProcessDrv/nfapi/basetype"
+	. "github.com/linuxliu/SunnyNet/src/ProcessDrv/Info"
+	"github.com/linuxliu/SunnyNet/src/ProcessDrv/nfapi/basetype"
 	"net"
 	"reflect"
 	"unsafe"

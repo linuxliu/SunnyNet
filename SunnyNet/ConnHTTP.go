@@ -2,12 +2,12 @@ package SunnyNet
 
 import (
 	"bytes"
-	"github.com/qtgolang/SunnyNet/src/CrossCompiled"
-	"github.com/qtgolang/SunnyNet/src/Interface"
-	"github.com/qtgolang/SunnyNet/src/SunnyProxy"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
-	"github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/CrossCompiled"
+	"github.com/linuxliu/SunnyNet/src/Interface"
+	"github.com/linuxliu/SunnyNet/src/SunnyProxy"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/public"
 	"io"
 	"net/url"
 	"strconv"

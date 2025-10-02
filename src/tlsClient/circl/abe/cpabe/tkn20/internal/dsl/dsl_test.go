@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/abe/cpabe/tkn20/internal/dsl"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/abe/cpabe/tkn20/internal/tkn"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/abe/cpabe/tkn20/internal/dsl"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/abe/cpabe/tkn20/internal/tkn"
 )
 
 var testCases = []struct {

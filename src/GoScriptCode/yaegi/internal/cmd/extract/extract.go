@@ -28,7 +28,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/qtgolang/SunnyNet/src/GoScriptCode/yaegi/extract"
+	"github.com/linuxliu/SunnyNet/src/GoScriptCode/yaegi/extract"
 )
 
 var (

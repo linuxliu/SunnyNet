@@ -2,10 +2,10 @@ package SunnyNet
 
 import (
 	"encoding/json"
-	"github.com/qtgolang/SunnyNet/src/GoScriptCode"
-	"github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/public"
-	"github.com/qtgolang/SunnyNet/src/websocket"
+	"github.com/linuxliu/SunnyNet/src/GoScriptCode"
+	"github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/websocket"
 	"go/format"
 	"strings"
 	"time"

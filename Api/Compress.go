@@ -2,8 +2,8 @@ package Api
 
 import "C"
 import (
-	"github.com/qtgolang/SunnyNet/src/Compress"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/Compress"
+	"github.com/linuxliu/SunnyNet/src/public"
 )
 
 // DeflateCompress Deflate压缩 (可能等同于zlib压缩)

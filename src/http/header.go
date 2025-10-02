@@ -5,9 +5,9 @@
 package http
 
 import (
-	"github.com/qtgolang/SunnyNet/src/http/httptrace"
-	"github.com/qtgolang/SunnyNet/src/http/internal/ascii"
-	"github.com/qtgolang/SunnyNet/src/internal/textproto"
+	"github.com/linuxliu/SunnyNet/src/http/httptrace"
+	"github.com/linuxliu/SunnyNet/src/http/internal/ascii"
+	"github.com/linuxliu/SunnyNet/src/internal/textproto"
 	"io"
 	"sort"
 	"strings"

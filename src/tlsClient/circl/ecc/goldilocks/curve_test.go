@@ -4,8 +4,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/ecc/goldilocks"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/test"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/ecc/goldilocks"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/test"
 )
 
 func TestScalarMult(t *testing.T) {

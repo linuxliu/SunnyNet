@@ -33,9 +33,9 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/ecc/goldilocks"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/sha3"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/ecc/goldilocks"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/sha3"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign"
 )
 
 const (

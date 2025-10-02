@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	 "github.com/qtgolang/SunnyNet/src/http"
+	 "github.com/linuxliu/SunnyNet/src/http"
 )
 
 func TestServer_Push_Success(t *testing.T) {

@@ -3,9 +3,9 @@ package SunnyNet
 import (
 	"context"
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/ReadWriteObject"
-	"github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/ReadWriteObject"
+	"github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/public"
 	"io"
 	"net"
 	"net/textproto"

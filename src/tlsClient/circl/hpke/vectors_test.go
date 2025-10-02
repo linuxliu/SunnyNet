@@ -9,8 +9,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/test"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/kem"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/test"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/kem"
 	"golang.org/x/crypto/sha3"
 )
 

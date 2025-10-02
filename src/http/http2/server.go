@@ -45,10 +45,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
 
-	 "github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/http/http2/hpack"
+	 "github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/http/http2/hpack"
 
 	"golang.org/x/net/http/httpguts"
 )

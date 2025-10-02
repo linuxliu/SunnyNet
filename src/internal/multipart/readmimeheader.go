@@ -4,7 +4,7 @@
 package multipart
 
 import (
-	"github.com/qtgolang/SunnyNet/src/internal/textproto"
+	"github.com/linuxliu/SunnyNet/src/internal/textproto"
 	_ "unsafe" // for go:linkname
 )
 

@@ -1,9 +1,9 @@
 package tls_client
 
 import (
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls/dicttls"
-	"github.com/qtgolang/SunnyNet/src/http/http2"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls/dicttls"
+	"github.com/linuxliu/SunnyNet/src/http/http2"
 )
 
 var H2SettingsMap = map[string]http2.SettingID{

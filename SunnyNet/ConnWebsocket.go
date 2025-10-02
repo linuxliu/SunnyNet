@@ -1,10 +1,10 @@
 package SunnyNet
 
 import (
-	"github.com/qtgolang/SunnyNet/src/CrossCompiled"
-	"github.com/qtgolang/SunnyNet/src/Interface"
-	"github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/CrossCompiled"
+	"github.com/linuxliu/SunnyNet/src/Interface"
+	"github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/public"
 )
 
 type ConnWebSocket Interface.ConnWebSocketCall

@@ -14,7 +14,7 @@ import (
 	"io"
 	"math"
 	"mime/multipart"
-	. "github.com/qtgolang/SunnyNet/src/http"
+	. "github.com/linuxliu/SunnyNet/src/http"
 	"net/url"
 	"os"
 	"reflect"

@@ -11,8 +11,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/blindsign/blindrsa/internal/common"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/blindsign/blindrsa/internal/keys"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/blindsign/blindrsa/internal/common"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/blindsign/blindrsa/internal/keys"
 	"golang.org/x/crypto/hkdf"
 )
 

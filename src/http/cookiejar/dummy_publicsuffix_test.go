@@ -4,7 +4,7 @@
 
 package cookiejar_test
 
-import "github.com/qtgolang/SunnyNet/src/http/cookiejar"
+import "github.com/linuxliu/SunnyNet/src/http/cookiejar"
 
 type dummypsl struct {
 	List cookiejar.PublicSuffixList

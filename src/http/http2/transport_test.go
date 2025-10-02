@@ -31,12 +31,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
 
-	 "github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/http/http2/hpack"
-	"github.com/qtgolang/SunnyNet/src/http/httptest"
-	"github.com/qtgolang/SunnyNet/src/http/httptrace"
+	 "github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/http/http2/hpack"
+	"github.com/linuxliu/SunnyNet/src/http/httptest"
+	"github.com/linuxliu/SunnyNet/src/http/httptrace"
 )
 
 var (

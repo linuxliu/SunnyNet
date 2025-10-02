@@ -12,9 +12,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
-	"github.com/qtgolang/SunnyNet/src/internal/godebug"
-	"github.com/qtgolang/SunnyNet/src/internal/textproto"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/internal/godebug"
+	"github.com/linuxliu/SunnyNet/src/internal/textproto"
 	"io"
 	"log"
 	"math/rand"
@@ -1125,7 +1125,7 @@ func relevantCaller() runtime.Frame {
 	var frame runtime.Frame
 	for {
 		frame, more := frames.Next()
-		if !strings.HasPrefix(frame.Function, "github.com/qtgolang/SunnyNet/src/http.") {
+		if !strings.HasPrefix(frame.Function, "github.com/linuxliu/SunnyNet/src/http.") {
 			return frame
 		}
 		if !more {
@@ -1834,7 +1834,7 @@ func (e statusError) Error() string { return StatusText(e.code) + ": " + e.text 
 // While any panic from ServeHTTP aborts the response to the client,
 // panicking with ErrAbortHandler also suppresses logging of a stack
 // trace to the server's error log.
-var ErrAbortHandler = errors.New("github.com/qtgolang/SunnyNet/src/http: abort Handler")
+var ErrAbortHandler = errors.New("github.com/linuxliu/SunnyNet/src/http: abort Handler")
 
 // isCommonNetReadError reports whether err is a common error
 // encountered during reading a request off the network when the
@@ -2076,7 +2076,7 @@ func (w *response) sendExpectationFailed() {
 // and a Hijacker.
 func (w *response) Hijack() (rwc net.Conn, buf *bufio.ReadWriter, err error) {
 	if w.handlerDone.Load() {
-		panic("github.com/qtgolang/SunnyNet/src/http: Hijack called after ServeHTTP finished")
+		panic("github.com/linuxliu/SunnyNet/src/http: Hijack called after ServeHTTP finished")
 	}
 	if w.wroteHeader {
 		w.cw.flush()
@@ -2098,7 +2098,7 @@ func (w *response) Hijack() (rwc net.Conn, buf *bufio.ReadWriter, err error) {
 
 func (w *response) CloseNotify() <-chan bool {
 	if w.handlerDone.Load() {
-		panic("github.com/qtgolang/SunnyNet/src/http: CloseNotify called after ServeHTTP finished")
+		panic("github.com/linuxliu/SunnyNet/src/http: CloseNotify called after ServeHTTP finished")
 	}
 	return w.closeNotifyCh
 }

@@ -9,8 +9,8 @@ import (
 	"errors"
 	"io"
 	"net"
-	"github.com/qtgolang/SunnyNet/src/http"
-	 "github.com/qtgolang/SunnyNet/src/internal/textproto"
+	"github.com/linuxliu/SunnyNet/src/http"
+	 "github.com/linuxliu/SunnyNet/src/internal/textproto"
 	"sync"
 )
 

@@ -16,11 +16,11 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
-	"github.com/qtgolang/SunnyNet/src/http/httptrace"
-	"github.com/qtgolang/SunnyNet/src/http/internal/ascii"
-	"github.com/qtgolang/SunnyNet/src/internal/godebug"
-	"github.com/qtgolang/SunnyNet/src/internal/textproto"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/http/httptrace"
+	"github.com/linuxliu/SunnyNet/src/http/internal/ascii"
+	"github.com/linuxliu/SunnyNet/src/internal/godebug"
+	"github.com/linuxliu/SunnyNet/src/internal/textproto"
 	"io"
 	"log"
 	"net"
@@ -528,13 +528,13 @@ func (t *Transport) roundTrip(req *Request) (*Response, error) {
 		for k, vv := range req.Header {
 			if !httpguts.ValidHeaderFieldName(k) {
 				req.closeBody()
-				return nil, fmt.Errorf("github.com/qtgolang/SunnyNet/src/http: invalid header field name %q", k)
+				return nil, fmt.Errorf("github.com/linuxliu/SunnyNet/src/http: invalid header field name %q", k)
 			}
 			for _, v := range vv {
 				if !httpguts.ValidHeaderFieldValue(v) {
 					req.closeBody()
 					// Don't include the value in the error, because it may be sensitive.
-					return nil, fmt.Errorf("github.com/qtgolang/SunnyNet/src/http: invalid header field value for %q", k)
+					return nil, fmt.Errorf("github.com/linuxliu/SunnyNet/src/http: invalid header field value for %q", k)
 				}
 			}
 		}
@@ -560,7 +560,7 @@ func (t *Transport) roundTrip(req *Request) (*Response, error) {
 	}
 	if req.Method != "" && !validMethod(req.Method) {
 		req.closeBody()
-		return nil, fmt.Errorf("github.com/qtgolang/SunnyNet/src/http: invalid method %q", req.Method)
+		return nil, fmt.Errorf("github.com/linuxliu/SunnyNet/src/http: invalid method %q", req.Method)
 	}
 	if req.URL.Host == "" {
 		req.closeBody()
@@ -634,7 +634,7 @@ func (t *Transport) roundTrip(req *Request) (*Response, error) {
 	}
 }
 
-var errCannotRewind = errors.New("github.com/qtgolang/SunnyNet/src/http: cannot rewind body after connection loss")
+var errCannotRewind = errors.New("github.com/linuxliu/SunnyNet/src/http: cannot rewind body after connection loss")
 
 type readTrackingBody struct {
 	io.ReadCloser
@@ -739,7 +739,7 @@ func (pc *persistConn) shouldRetryRequest(req *Request, err error) bool {
 }
 
 // ErrSkipAltProtocol is a sentinel error value defined by Transport.RegisterProtocol.
-var ErrSkipAltProtocol = errors.New("github.com/qtgolang/SunnyNet/src/http: skip alternate protocol")
+var ErrSkipAltProtocol = errors.New("github.com/linuxliu/SunnyNet/src/http: skip alternate protocol")
 
 // RegisterProtocol registers a new protocol with scheme.
 // The Transport will pass requests using the given scheme to rt.
@@ -895,7 +895,7 @@ type transportReadFromServerError struct {
 func (e transportReadFromServerError) Unwrap() error { return e.err }
 
 func (e transportReadFromServerError) Error() string {
-	return fmt.Sprintf("github.com/qtgolang/SunnyNet/src/http: Transport failed to read from server: %v", e.err)
+	return fmt.Sprintf("github.com/linuxliu/SunnyNet/src/http: Transport failed to read from server: %v", e.err)
 }
 
 func (t *Transport) putOrCloseIdleConn(pconn *persistConn) {
@@ -1179,7 +1179,7 @@ func (t *Transport) dial(ctx context.Context, network, addr string) (net.Conn, e
 	if t.Dial != nil {
 		c, err := t.Dial(network, addr)
 		if c == nil && err == nil {
-			err = errors.New("github.com/qtgolang/SunnyNet/src/http: Transport.Dial hook returned (nil, nil)")
+			err = errors.New("github.com/linuxliu/SunnyNet/src/http: Transport.Dial hook returned (nil, nil)")
 		}
 		return c, err
 	}
@@ -1231,7 +1231,7 @@ func (w *wantConn) tryDeliver(pc *persistConn, err error) bool {
 	w.pc = pc
 	w.err = err
 	if w.pc == nil && w.err == nil {
-		panic("github.com/qtgolang/SunnyNet/src/http: internal error: misuse of tryDeliver")
+		panic("github.com/linuxliu/SunnyNet/src/http: internal error: misuse of tryDeliver")
 	}
 	close(w.ready)
 	return true
@@ -1327,7 +1327,7 @@ func (t *Transport) customDialTLS(ctx context.Context, network, addr string) (co
 		conn, err = t.DialTLS(network, addr)
 	}
 	if conn == nil && err == nil {
-		err = errors.New("github.com/qtgolang/SunnyNet/src/http: Transport.DialTLS or DialTLSContext returned (nil, nil)")
+		err = errors.New("github.com/linuxliu/SunnyNet/src/http: Transport.DialTLS or DialTLSContext returned (nil, nil)")
 	}
 	return
 }
@@ -1480,7 +1480,7 @@ func (t *Transport) decConnsPerHost(key connectMethodKey) {
 	if n == 0 {
 		// Shouldn't happen, but if it does, the counting is buggy and could
 		// easily lead to a silent deadlock, so report the problem loudly.
-		panic("github.com/qtgolang/SunnyNet/src/http: internal error: connCount underflow")
+		panic("github.com/linuxliu/SunnyNet/src/http: internal error: connCount underflow")
 	}
 
 	// Can we hand this count to a goroutine still waiting to dial?
@@ -2060,7 +2060,7 @@ func (pc *persistConn) mapRoundTripError(req *transportRequest, startBytesWritte
 		if pc.nwrite == startBytesWritten {
 			return nothingWrittenError{err}
 		}
-		return fmt.Errorf("github.com/qtgolang/SunnyNet/src/http: HTTP/1.x transport connection broken: %w", err)
+		return fmt.Errorf("github.com/linuxliu/SunnyNet/src/http: HTTP/1.x transport connection broken: %w", err)
 	}
 	return err
 }
@@ -2128,7 +2128,7 @@ func (pc *persistConn) readLoop() {
 
 		if err != nil {
 			if pc.readLimit <= 0 {
-				err = fmt.Errorf("github.com/qtgolang/SunnyNet/src/http: server response headers exceeded %d bytes; aborted", pc.maxHeaderResponseSize())
+				err = fmt.Errorf("github.com/linuxliu/SunnyNet/src/http: server response headers exceeded %d bytes; aborted", pc.maxHeaderResponseSize())
 			}
 
 			select {
@@ -2321,7 +2321,7 @@ func (pc *persistConn) readResponse(rc requestAndChan, trace *httptrace.ClientTr
 		if is1xxNonTerminal {
 			num1xx++
 			if num1xx > max1xxResponses {
-				return nil, errors.New("github.com/qtgolang/SunnyNet/src/http: too many 1xx informational responses")
+				return nil, errors.New("github.com/linuxliu/SunnyNet/src/http: too many 1xx informational responses")
 			}
 			pc.readLimit = pc.maxHeaderResponseSize() // reset the limit
 			if trace != nil && trace.Got1xxResponse != nil {
@@ -2529,12 +2529,12 @@ func (e *httpError) Error() string   { return e.err }
 func (e *httpError) Timeout() bool   { return e.timeout }
 func (e *httpError) Temporary() bool { return true }
 
-var errTimeout error = &httpError{err: "github.com/qtgolang/SunnyNet/src/http: timeout awaiting response headers", timeout: true}
+var errTimeout error = &httpError{err: "github.com/linuxliu/SunnyNet/src/http: timeout awaiting response headers", timeout: true}
 
 // errRequestCanceled is set to be identical to the one from h2 to facilitate
 // testing.
 var errRequestCanceled = http2errRequestCanceled
-var errRequestCanceledConn = errors.New("github.com/qtgolang/SunnyNet/src/http: request canceled while waiting for connection") // TODO: unify?
+var errRequestCanceledConn = errors.New("github.com/linuxliu/SunnyNet/src/http: request canceled while waiting for connection") // TODO: unify?
 
 func nop() {}
 
@@ -2866,7 +2866,7 @@ type tlsHandshakeTimeoutError struct{}
 func (tlsHandshakeTimeoutError) Timeout() bool   { return true }
 func (tlsHandshakeTimeoutError) Temporary() bool { return true }
 func (tlsHandshakeTimeoutError) Error() string {
-	return "github.com/qtgolang/SunnyNet/src/http: TLS handshake timeout"
+	return "github.com/linuxliu/SunnyNet/src/http: TLS handshake timeout"
 }
 
 // fakeLocker is a sync.Locker which does nothing. It's used to guard

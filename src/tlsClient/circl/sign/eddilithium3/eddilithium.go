@@ -7,10 +7,10 @@ import (
 	"errors"
 	"io"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/sha3"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign/dilithium/mode3"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign/ed448"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/sha3"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign/dilithium/mode3"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign/ed448"
 )
 
 const (

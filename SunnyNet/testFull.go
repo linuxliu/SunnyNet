@@ -7,11 +7,11 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/GoScriptCode"
-	"github.com/qtgolang/SunnyNet/src/Interface"
-	"github.com/qtgolang/SunnyNet/src/Resource"
-	"github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/GoScriptCode"
+	"github.com/linuxliu/SunnyNet/src/Interface"
+	"github.com/linuxliu/SunnyNet/src/Resource"
+	"github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/public"
 	"strings"
 )
 

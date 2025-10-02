@@ -2,9 +2,9 @@ package SunnyNet
 
 import "C"
 import (
-	"github.com/qtgolang/SunnyNet/src/Call"
-	"github.com/qtgolang/SunnyNet/src/dns"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/Call"
+	"github.com/linuxliu/SunnyNet/src/dns"
+	"github.com/linuxliu/SunnyNet/src/public"
 	"strconv"
 	"strings"
 )

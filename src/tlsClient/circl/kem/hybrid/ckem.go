@@ -8,8 +8,8 @@ import (
 	"crypto/subtle"
 	"math/big"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/kem"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/xof"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/kem"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/xof"
 )
 
 type cPublicKey struct {

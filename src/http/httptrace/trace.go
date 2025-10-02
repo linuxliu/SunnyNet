@@ -8,10 +8,10 @@ package httptrace
 
 import (
 	"context"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
-	"github.com/qtgolang/SunnyNet/src/internal/nettrace"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/internal/nettrace"
 	"net"
-	 "github.com/qtgolang/SunnyNet/src/internal/textproto"
+	 "github.com/linuxliu/SunnyNet/src/internal/textproto"
 	"reflect"
 	"time"
 )

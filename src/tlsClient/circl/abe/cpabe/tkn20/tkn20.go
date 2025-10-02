@@ -14,8 +14,8 @@ import (
 	cryptoRand "crypto/rand"
 	"io"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/abe/cpabe/tkn20/internal/dsl"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/abe/cpabe/tkn20/internal/tkn"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/abe/cpabe/tkn20/internal/dsl"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/abe/cpabe/tkn20/internal/tkn"
 )
 
 type PublicKey struct {

@@ -7,8 +7,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign/schemes"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign/schemes"
 )
 
 var (

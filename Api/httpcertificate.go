@@ -2,8 +2,8 @@ package Api
 
 import (
 	"crypto/x509"
-	"github.com/qtgolang/SunnyNet/src/Certificate"
-	"github.com/qtgolang/SunnyNet/src/HttpCertificate"
+	"github.com/linuxliu/SunnyNet/src/Certificate"
+	"github.com/linuxliu/SunnyNet/src/HttpCertificate"
 )
 
 // AddHttpCertificate 创建 Http证书管理器 对象 实现指定Host使用指定证书

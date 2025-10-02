@@ -3,8 +3,8 @@
 package internal
 
 import (
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/sha3"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/pke/kyber/internal/common"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/sha3"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/pke/kyber/internal/common"
 )
 
 // A Kyber.CPAPKE private key.

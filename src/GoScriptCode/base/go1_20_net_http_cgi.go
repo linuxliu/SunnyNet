@@ -6,7 +6,7 @@
 package base
 
 import (
-	"github.com/qtgolang/SunnyNet/src/http/cgi"
+	"github.com/linuxliu/SunnyNet/src/http/cgi"
 	"reflect"
 )
 

@@ -5,8 +5,8 @@
 package http
 
 import (
-	"github.com/qtgolang/SunnyNet/src/internal/multipart"
-	"github.com/qtgolang/SunnyNet/src/internal/textproto"
+	"github.com/linuxliu/SunnyNet/src/internal/multipart"
+	"github.com/linuxliu/SunnyNet/src/internal/textproto"
 	"net/url"
 )
 

@@ -5,9 +5,9 @@
 package httptest
 
 import (
-	 "github.com/qtgolang/SunnyNet/src/crypto/tls"
+	 "github.com/linuxliu/SunnyNet/src/crypto/tls"
 	"io"
-	"github.com/qtgolang/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/http"
 	"net/url"
 	"reflect"
 	"strings"

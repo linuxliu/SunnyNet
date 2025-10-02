@@ -3,7 +3,7 @@
 
 package CrossCompiled
 
-import "github.com/qtgolang/SunnyNet/src/ProcessDrv/Info"
+import "github.com/linuxliu/SunnyNet/src/ProcessDrv/Info"
 
 func SetIeProxy(Off bool, Port int) bool {
 	return false

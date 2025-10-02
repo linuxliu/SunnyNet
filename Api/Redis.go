@@ -5,9 +5,9 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
-	"github.com/qtgolang/SunnyNet/src/Call"
-	redis "github.com/qtgolang/SunnyNet/src/Redis"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/src/Call"
+	redis "github.com/linuxliu/SunnyNet/src/Redis"
+	"github.com/linuxliu/SunnyNet/src/public"
 	"strings"
 	"sync"
 )

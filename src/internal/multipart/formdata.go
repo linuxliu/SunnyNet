@@ -7,8 +7,8 @@ package multipart
 import (
 	"bytes"
 	"errors"
-	"github.com/qtgolang/SunnyNet/src/internal/godebug"
-	"github.com/qtgolang/SunnyNet/src/internal/textproto"
+	"github.com/linuxliu/SunnyNet/src/internal/godebug"
+	"github.com/linuxliu/SunnyNet/src/internal/textproto"
 	"io"
 	"math"
 	"os"

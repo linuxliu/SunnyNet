@@ -4,7 +4,7 @@
 package x448
 
 import (
-	fp "github.com/qtgolang/SunnyNet/src/tlsClient/circl/math/fp448"
+	fp "github.com/linuxliu/SunnyNet/src/tlsClient/circl/math/fp448"
 	"golang.org/x/sys/cpu"
 )
 

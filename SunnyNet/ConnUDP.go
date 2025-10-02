@@ -1,9 +1,9 @@
 package SunnyNet
 
 import (
-	"github.com/qtgolang/SunnyNet/src/CrossCompiled"
-	"github.com/qtgolang/SunnyNet/src/Interface"
-	"github.com/qtgolang/SunnyNet/src/ProcessDrv/nfapi"
+	"github.com/linuxliu/SunnyNet/src/CrossCompiled"
+	"github.com/linuxliu/SunnyNet/src/Interface"
+	"github.com/linuxliu/SunnyNet/src/ProcessDrv/nfapi"
 )
 
 type ConnUDP Interface.ConnUDPCall

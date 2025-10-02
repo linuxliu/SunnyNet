@@ -9,12 +9,12 @@ package cgi
 
 import (
 	"bufio"
-	 "github.com/qtgolang/SunnyNet/src/crypto/tls"
+	 "github.com/linuxliu/SunnyNet/src/crypto/tls"
 	"errors"
 	"fmt"
 	"io"
 	"net"
-	"github.com/qtgolang/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/http"
 	"net/url"
 	"os"
 	"strconv"

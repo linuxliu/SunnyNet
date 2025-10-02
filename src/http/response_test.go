@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"go/token"
 	"io"
-	"github.com/qtgolang/SunnyNet/src/http/internal"
+	"github.com/linuxliu/SunnyNet/src/http/internal"
 	"net/url"
 	"reflect"
 	"regexp"

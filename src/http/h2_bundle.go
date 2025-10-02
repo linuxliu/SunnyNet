@@ -28,9 +28,9 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
-	"github.com/qtgolang/SunnyNet/src/http/httptrace"
-	"github.com/qtgolang/SunnyNet/src/internal/textproto"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/http/httptrace"
+	"github.com/linuxliu/SunnyNet/src/internal/textproto"
 	"io"
 	"io/fs"
 	"log"
@@ -8156,7 +8156,7 @@ func (cc *http2ClientConn) closeForLostPing() {
 
 // errRequestCanceled is a copy of net/http's errRequestCanceled because it's not
 // exported. At least they'll be DeepEqual for h1-vs-h2 comparisons tests.
-var http2errRequestCanceled = errors.New("github.com/qtgolang/SunnyNet/src/http: request canceled")
+var http2errRequestCanceled = errors.New("github.com/linuxliu/SunnyNet/src/http: request canceled")
 
 func http2commaSeparatedTrailers(req *Request) (string, error) {
 	keys := make([]string, 0, len(req.Trailer))
@@ -9571,7 +9571,7 @@ func (b http2transportResponseBody) Read(p []byte) (n int, err error) {
 		if int64(n) > cs.bytesRemain {
 			n = int(cs.bytesRemain)
 			if err == nil {
-				err = errors.New("github.com/qtgolang/SunnyNet/src/http: server replied with more than declared Content-Length; truncated")
+				err = errors.New("github.com/linuxliu/SunnyNet/src/http: server replied with more than declared Content-Length; truncated")
 				cs.abortStream(err)
 			}
 			cs.readErr = err

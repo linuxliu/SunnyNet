@@ -19,9 +19,9 @@ import (
 	"crypto/subtle"
 	"io"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/dh/sidh"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/sha3"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/kem"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/dh/sidh"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/sha3"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/kem"
 )
 
 

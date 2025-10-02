@@ -4,7 +4,7 @@
 package Info
 
 import (
-	"github.com/qtgolang/SunnyNet/src/iphlpapi"
+	"github.com/linuxliu/SunnyNet/src/iphlpapi"
 	"golang.org/x/text/encoding/simplifiedchinese"
 	"os/exec"
 	"strconv"

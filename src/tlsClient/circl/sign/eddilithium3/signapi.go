@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"encoding/asn1"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign"
 )
 
 var sch sign.Scheme = &scheme{}

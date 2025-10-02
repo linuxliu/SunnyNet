@@ -4,7 +4,7 @@
 package GoScriptCode
 
 import (
-	"github.com/qtgolang/SunnyNet/src/Interface"
+	"github.com/linuxliu/SunnyNet/src/Interface"
 )
 
 type GoScriptTypeHTTP func(Interface.ConnHTTPScriptCall)

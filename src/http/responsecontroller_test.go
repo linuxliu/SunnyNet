@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	. "github.com/qtgolang/SunnyNet/src/http"
+	. "github.com/linuxliu/SunnyNet/src/http"
 	"os"
 	"sync"
 	"testing"

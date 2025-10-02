@@ -9,7 +9,7 @@ package boring
 import (
 	"crypto"
 	"crypto/cipher"
-	"github.com/qtgolang/SunnyNet/src/crypto/internal/boring/sig"
+	"github.com/linuxliu/SunnyNet/src/crypto/internal/boring/sig"
 	"hash"
 )
 

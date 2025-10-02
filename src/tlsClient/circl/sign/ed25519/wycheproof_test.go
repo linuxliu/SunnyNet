@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/test"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign/ed25519"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/test"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign/ed25519"
 )
 
 type group struct {

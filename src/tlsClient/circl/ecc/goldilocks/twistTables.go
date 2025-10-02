@@ -1,6 +1,6 @@
 package goldilocks
 
-import fp "github.com/qtgolang/SunnyNet/src/tlsClient/circl/math/fp448"
+import fp "github.com/linuxliu/SunnyNet/src/tlsClient/circl/math/fp448"
 
 var tabFixMult = [fxV][fx2w1]preTwistPointAffine{
 	{

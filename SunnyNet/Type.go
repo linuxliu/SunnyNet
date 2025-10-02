@@ -2,8 +2,8 @@ package SunnyNet
 
 import (
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/ReadWriteObject"
-	"github.com/qtgolang/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/ReadWriteObject"
+	"github.com/linuxliu/SunnyNet/src/http"
 )
 
 type errorRW struct {

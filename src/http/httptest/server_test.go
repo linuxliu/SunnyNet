@@ -8,7 +8,7 @@ import (
 	"bufio"
 	"io"
 	"net"
-	"github.com/qtgolang/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/http"
 	"sync"
 	"testing"
 )

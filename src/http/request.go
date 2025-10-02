@@ -13,11 +13,11 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
-	"github.com/qtgolang/SunnyNet/src/http/httptrace"
-	"github.com/qtgolang/SunnyNet/src/http/internal/ascii"
-	"github.com/qtgolang/SunnyNet/src/internal/multipart"
-	"github.com/qtgolang/SunnyNet/src/internal/textproto"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/http/httptrace"
+	"github.com/linuxliu/SunnyNet/src/http/internal/ascii"
+	"github.com/linuxliu/SunnyNet/src/internal/multipart"
+	"github.com/linuxliu/SunnyNet/src/internal/textproto"
 	"io"
 	"mime"
 	"net"
@@ -735,7 +735,7 @@ func (r *Request) write(w io.Writer, usingProxy bool, extraHeaders Header, waitF
 		}
 	}
 	if stringContainsCTLByte(ruri) {
-		return errors.New("github.com/qtgolang/SunnyNet/src/http: can't write control character in Request.URL")
+		return errors.New("github.com/linuxliu/SunnyNet/src/http: can't write control character in Request.URL")
 	}
 	// TODO: validate r.Method too? At least it's less likely to
 	// come from an attacker (more likely to be a constant in
@@ -984,10 +984,10 @@ func NewRequestWithContext(ctx context.Context, method, url string, body io.Read
 		method = "GET"
 	}
 	if !validMethod(method) {
-		return nil, fmt.Errorf("github.com/qtgolang/SunnyNet/src/http: invalid method %q", method)
+		return nil, fmt.Errorf("github.com/linuxliu/SunnyNet/src/http: invalid method %q", method)
 	}
 	if ctx == nil {
-		return nil, errors.New("github.com/qtgolang/SunnyNet/src/http: nil Context")
+		return nil, errors.New("github.com/linuxliu/SunnyNet/src/http: nil Context")
 	}
 	u, err := urlpkg.Parse(url)
 	if err != nil {

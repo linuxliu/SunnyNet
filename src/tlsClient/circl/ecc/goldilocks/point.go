@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	fp "github.com/qtgolang/SunnyNet/src/tlsClient/circl/math/fp448"
+	fp "github.com/linuxliu/SunnyNet/src/tlsClient/circl/math/fp448"
 )
 
 // Point is a point on the Goldilocks Curve.

@@ -9,9 +9,9 @@ package http
 import (
 	"errors"
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/internal/multipart"
-	"github.com/qtgolang/SunnyNet/src/internal/safefilepath"
-	"github.com/qtgolang/SunnyNet/src/internal/textproto"
+	"github.com/linuxliu/SunnyNet/src/internal/multipart"
+	"github.com/linuxliu/SunnyNet/src/internal/safefilepath"
+	"github.com/linuxliu/SunnyNet/src/internal/textproto"
 	"io"
 	"io/fs"
 	"mime"

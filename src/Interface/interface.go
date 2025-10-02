@@ -1,7 +1,7 @@
 package Interface
 
 import (
-	"github.com/qtgolang/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/http"
 	"io"
 )
 

@@ -11,11 +11,11 @@ package schemes
 import (
 	"strings"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign/ed25519"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign/ed448"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign/eddilithium2"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign/eddilithium3"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign/ed25519"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign/ed448"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign/eddilithium2"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign/eddilithium3"
 )
 
 var allSchemes = [...]sign.Scheme{

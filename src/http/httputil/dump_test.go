@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"io"
 	"math/rand"
-	"github.com/qtgolang/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/http"
 	"net/url"
 	"runtime"
 	"runtime/pprof"

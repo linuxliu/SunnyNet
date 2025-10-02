@@ -3,7 +3,7 @@ package ff
 import (
 	"testing"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/internal/test"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/internal/test"
 )
 
 func TestFP12CubicAdd(t *testing.T) {

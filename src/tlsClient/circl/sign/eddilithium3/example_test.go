@@ -3,7 +3,7 @@ package eddilithium3_test
 import (
 	"fmt"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign/eddilithium3"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign/eddilithium3"
 )
 
 func Example() {

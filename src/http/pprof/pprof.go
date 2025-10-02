@@ -11,10 +11,10 @@
 //
 // To use pprof, link this package into your program:
 //
-//	import _ "github.com/qtgolang/SunnyNet/src/http/pprof"
+//	import _ "github.com/linuxliu/SunnyNet/src/http/pprof"
 //
 // If your application is not already running an http server, you
-// need to start one. Add "github.com/qtgolang/SunnyNet/src/http" and "log" to your imports and
+// need to start one. Add "github.com/linuxliu/SunnyNet/src/http" and "log" to your imports and
 // the following code to your main function:
 //
 //	go func() {
@@ -66,8 +66,8 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/internal/profile"
+	"github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/internal/profile"
 	"html"
 	"io"
 	"log"

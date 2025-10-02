@@ -9,7 +9,7 @@ import (
 	"crypto/rand"
 	"errors"
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/internal/textproto"
+	"github.com/linuxliu/SunnyNet/src/internal/textproto"
 	"io"
 	"sort"
 	"strings"

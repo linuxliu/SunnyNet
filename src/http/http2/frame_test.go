@@ -13,7 +13,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/qtgolang/SunnyNet/src/http/http2/hpack"
+	"github.com/linuxliu/SunnyNet/src/http/http2/hpack"
 )
 
 func testFramer() (*Framer, *bytes.Buffer) {

@@ -2,7 +2,7 @@ package http
 
 import (
 	"encoding/json"
-	"github.com/qtgolang/SunnyNet/src/crypto/tls"
+	"github.com/linuxliu/SunnyNet/src/crypto/tls"
 )
 
 // PriorityParam are the stream prioritzation parameters.

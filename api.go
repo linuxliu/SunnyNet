@@ -6,9 +6,9 @@ package main
 import "C"
 import (
 	"errors"
-	"github.com/qtgolang/SunnyNet/Api"
-	"github.com/qtgolang/SunnyNet/src/dns"
-	"github.com/qtgolang/SunnyNet/src/public"
+	"github.com/linuxliu/SunnyNet/Api"
+	"github.com/linuxliu/SunnyNet/src/dns"
+	"github.com/linuxliu/SunnyNet/src/public"
 	"unsafe"
 )
 

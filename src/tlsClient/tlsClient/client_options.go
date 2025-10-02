@@ -7,8 +7,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/tlsClient/tlsClient/profiles"
+	"github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/tlsClient/profiles"
 )
 
 type HttpClientOption func(config *httpClientConfig)

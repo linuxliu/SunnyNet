@@ -5,7 +5,7 @@ package internal
 import (
 	"testing"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/sign/dilithium/internal/common"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/sign/dilithium/internal/common"
 )
 
 func TestPolyPackLeqEta(t *testing.T) {

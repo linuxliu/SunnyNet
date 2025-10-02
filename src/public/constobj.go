@@ -10,8 +10,8 @@ package public
 
 import (
 	"fmt"
-	"github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/websocket"
+	"github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/websocket"
 	"math/rand"
 	"time"
 )

@@ -6,7 +6,7 @@ package p751
 import (
 	"testing"
 
-	"github.com/qtgolang/SunnyNet/src/tlsClient/circl/dh/sidh/internal/common"
+	"github.com/linuxliu/SunnyNet/src/tlsClient/circl/dh/sidh/internal/common"
 )
 
 // Package-level storage for this field element is intended to deter

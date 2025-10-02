@@ -1,8 +1,8 @@
 package Proxifier
 
 import (
-	"github.com/qtgolang/SunnyNet/src/ProcessDrv/Info"
-	"github.com/qtgolang/SunnyNet/src/Resource"
+	"github.com/linuxliu/SunnyNet/src/ProcessDrv/Info"
+	"github.com/linuxliu/SunnyNet/src/Resource"
 	"os"
 	"os/exec"
 	"runtime"

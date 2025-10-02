@@ -7,8 +7,8 @@ package httptrace_test
 import (
 	"fmt"
 	"log"
-	"github.com/qtgolang/SunnyNet/src/http"
-	"github.com/qtgolang/SunnyNet/src/http/httptrace"
+	"github.com/linuxliu/SunnyNet/src/http"
+	"github.com/linuxliu/SunnyNet/src/http/httptrace"
 )
 
 func Example() {
