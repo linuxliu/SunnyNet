@@ -86,7 +86,7 @@ void CleanupProcessList()
 
 
 /* 定义指向 GetTcpTable2 函数的指针变量 */
-GetTcpTable2 pGetTcpTable2;
+GetTcpTable2Proc pGetTcpTable2;
 
 /* 定义指向 GetExtendedTcpTable 函数的指针变量 */
 GETEXTENDEDTABLE pGetExtendedTcpTable;
@@ -112,7 +112,7 @@ void closeTcpConnectionInit()
 	pSetTcpEntry = (SETTCPENTRY) GetProcAddress( hModule, "SetTcpEntry" );
 
 	/* 获取 GetTcpTable2 函数地址 */
-	pGetTcpTable2 = (GetTcpTable2) GetProcAddress( hModule, "GetTcpTable2" );
+	pGetTcpTable2 = (GetTcpTable2Proc) GetProcAddress( hModule, "GetTcpTable2" );
 
 	if ( pGetExtendedTcpTable == NULL || pSetTcpEntry == NULL || pGetTcpTable2 == NULL )
 	{
